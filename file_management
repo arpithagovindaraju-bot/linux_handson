@@ -1,0 +1,34 @@
+comands
+
+ls list of commands
+cd change directory   cd filename
+back cd..
+/ root
+
+pwd present working directory
+mkdir make new
+rmdir delete directory
+
+touch filename : create file
+rm filename
+
+rm -rf dir_name
+
+cp source_file destination_file    copy
+rename: mv original newname
+
+write to file
+create touch filename
+vi or vim
+apt install vim
+vim filename
+- normal mode --navigation/command execution, insert mode --- text editing mode, command mode-- saving,quitting,searching---
+i
+-insert mode
+enter inside file, 
+to save--- command mode --press esc :wq save+quit :wq!
+
+cat filename --display containt
+
+
+
