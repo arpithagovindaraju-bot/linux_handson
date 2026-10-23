@@ -1,0 +1,37 @@
+
+LINUX
+
+Users and applications want to interact with hardware
+using CLI or GUI
+Operating system: intermediate software layer, interface, provides cli/gui
+ - bridge between software and hardware, users and api
+ - does process management, device management, network management
+
+
+-open source
+-secure
+
+
+Structure:
+
+0. Hardware
+1. Linux kernel: pm, dm,fm, nm (engine of car)
+2. system lib/packages
+3.CLI/GUI
+
+Linux distributions: Ubuntu, Red Hat 
+
+install:
+windows: wsl --install
+command prompt
+
+package managers:
+linux: pm : help to deploy/ install dependencies
+    -upgrade new version
+    -delete/manage the package
+
+
+
+
+
+
