@@ -1,0 +1,10 @@
+to connect to linux evmt
+ssh client
+
+linux server---process will be running sshd--will alow you to login to llinux server
+laptop--istall ssh-client--has package ssh, 
+
+ssh clients are git-bash,
+on ssh client run command
+--ssh username @ip-adress_of_instances
+
