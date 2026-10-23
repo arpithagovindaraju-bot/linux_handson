@@ -1,0 +1,67 @@
+admin & password
+
+linux server: access to is given,workspace for many but might harm
+
+user and groups
+create user, grant access, decide who gets what access
+
+to create user:
+- useradd username
+to check:
+vim/etc/passwd
+created!!
+
+cat etc/passwd--will show here
+
+TO CREATE PASSWORD FOR USER
+-passwd username
+New password: 
+retype, successful
+
+cat /etc/shadow
+encrypted password
+can we decrypt it? NO 
+forgot: can't restore
+
+DELETE USER:
+userdel username
+
+
+adduser : 
+adduser username
+provide password, full name, and home directory is created for user
+
+whoami:
+username
+
+Q. DIFF BETWEEN useradd and adduser
+- adduser provides homedir to user,take lot of user info
+useradd quick way to create user, no details, no homedir
+ - helps while writing scripts
+
+Q. restore password for linux user
+NOOOOOOOOOOOOOOOOOOO
+Encrypted is found at /etc/shadow
+
+GROUPS:
+DEV QW DEVOPS MGMT
+Modify permissions at user levels
+add group:
+groupadd devops
+to check : 
+cat/etc/group
+
+to add user to the group:
+usermod -aG devops(groupname) username
+check cat/etc/group
+
+
+
+
+
+
+
+
+
+
+
