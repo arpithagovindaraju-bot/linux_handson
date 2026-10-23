@@ -1,0 +1,43 @@
+root : user: admin user
+: separator
+/ path or preset working directory
+
+hardware: file system--storage at location..
+/ root location
+
+~ /home/user  home directory
+
+folders:
+root -> lib bin  var home temp run etc 
+{ TO switch to root user: sudo su -}
+
+
+sbin: system binary, manage system as admin, create -useradd , System binaries for administrative commands
+bin: system commands, non administrative, easy access
+commands: admin, regular :: sbin , bin
+sbin ->usr/sbin, bin : usr/bin
+lib: 
+
+srv: webserver codes
+opt: imp, install 3rd party tool->mkdir folder,common practice
+mnt: mount , adding space/disc/volume
+
+media: file,pic
+
+var: log files 
+home: 
+data: store data, csan be shared wth other members/admins, data can be stored here
+proc , dec temp : temp folders
+
+run: run time data isstored here
+etc: system config files, like folder c in Windows.. password, hosts, settings in mobile phone
+
+
+[
+ls: path file
+path : has static bath, ls should be in that ath, thn it works and shows same result everythime
+if not command not found will be displayed
+
+
+
+
