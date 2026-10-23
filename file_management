@@ -28,6 +28,20 @@ i
 enter inside file, 
 to save--- command mode --press esc :wq save+quit :wq!
 
+moving cursor in fie
+esc.. :0 moves to the 1st line
+esc shift g last line
+esc+shift+o  create new line 
+esc+u remove line
+
+
+head -n 10 filename       1st 10 lines
+tail -n 19 filename     last 19 lines
+echo 'hi'>filename write+overwrite
+echo 'hi'>> filename write+ no overwrite, append at last
+
+
+
 cat filename --display containt
 
 
