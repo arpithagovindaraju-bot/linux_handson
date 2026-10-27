@@ -1,0 +1,150 @@
+process: running instance
+operations: view kill/stop/resume prio/deprior
+priorities
+//pm
+
+ps: list of running processes
+ps aux: all processes
+count of running processes: ps aux | nl (line number)   or ps aux | wc -l (word count0
+
+diff btwn ps aux  and ps -ef
+aux--process cpu utilisation and memory utilisation
+ef no 
+
+
+ouput:
+user : who initiate / tiggered the process  root/qe/ubuntu
+pid: unique id
+%cpu: 
+5mem
+VSZ
+RSS
+TTY
+STAT
+START
+TIME
+COMMAND
+
+
+kill:
+process hang server completely
+-hang enteier system
+=> kill pid
+view/check.. ps aux | grep processsline
+ps aux grep java| grep -v grep
+
+Forcefully kill
+kill -9 pid
+kill -3 pid, thread terms for java pgm, will not kill
+
+TEMP STOP
+kill -STOP pid
+kill -CONT pid
+
+PRIOR/DEPrior
+renice -n 10 -p 4048
+-n 10 : -19 to 20
+-18 is high priority than 18, 18 is less priotity
+
+special processes: Services
+bg running process, + working at boot of server; booting of sserver--service
+
+process are python ubuntu
+Services are webserver-static content,
+
+systemctl list-units --type
+
+list service
+systemctl list-units --type=service
+
+to stop
+systemctl stop corn.service
+           start
+
+
+
+
+MONITORING IN LINUX SYSTEM
+CPU MEMORY DISK--process/file consuming more
+
+
+top process
+-> top 
+output: PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+COMMAND
+
+htop
+same info with a beautiful interface; result + color format
+
+vmstat--system performance, free memory, caching
+
+free -m :  free memory
+free -h: MB memory in human readable
+
+nproc
+cpu available
+
+
+disk utilisation
+
+-----------------
+cpu: nproc, htop
+mem: htop, free -h
+disk: df -h
+
+--------------------------
+folder by folder
+du -sh
+-move inside the folder 
+--cd opt 
+then du -sh
+will tell memory used by the folder
+
+du -sh *
+4.0k tools
+4.5k python
+---------------------------------------
+integate linux with grapahana/prometus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                   
